@@ -87,7 +87,7 @@ export default function HomePage() {
                 The ultimate insect sting challenge inspired by Coyote Peterson. 
                 Educational, entertaining, and tokenized experiences that push the boundaries 
                 of pain tolerance while promoting entomology education.
-                <span className="block text-sm text-red-500 mt-2">🧪 Connection Test - Live Update Successful!</span>
+                <span className="block text-sm text-red-500 mt-2">🧪 Connection Test - Live Update Successful! ✅ GitHub Sync Working!</span>
               </p>
             </motion.div>
 
