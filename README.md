@@ -1,36 +1,173 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Sting.my - The Ultimate Insect Sting Challenge
 
-## Getting Started
+A modern web application inspired by Coyote Peterson's insect sting challenges, featuring educational content, community engagement, and tokenized rewards.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+- **7-Level Sting Challenge**: Progressive difficulty based on Schmidt Sting Pain Index
+- **Educational Content**: Comprehensive articles about entomology and pain science
+- **Live Streaming**: Real-time challenges and educational sessions
+- **Token System**: Community rewards and voting mechanisms
+- **Safety First**: Comprehensive medical information and safety protocols
+- **Modern UI**: Beautiful, responsive design with smooth animations
+
+## 🛠️ Tech Stack
+
+- **Frontend**: Next.js 14 with App Router
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Icons**: Lucide React
+- **TypeScript**: Full type safety
+- **Deployment**: Railway
+
+## 📁 Project Structure
+
+```
+src/
+├── app/                    # Next.js App Router pages
+│   ├── education/         # Educational blog and articles
+│   ├── levels/            # Sting levels overview
+│   ├── live/              # Live streaming page
+│   ├── safety/            # Safety and medical information
+│   ├── token/             # Token system and community
+│   ├── layout.tsx         # Root layout
+│   └── page.tsx           # Homepage
+├── components/            # Reusable React components
+│   ├── Header.tsx         # Navigation header
+│   └── Footer.tsx         # Site footer
+└── globals.css           # Global styles
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Getting Started
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js 18+ 
+- npm or yarn
 
-## Learn More
+### Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+```bash
+git clone https://github.com/yourusername/sting-my.git
+cd sting-my
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+3. Start the development server:
+```bash
+npm run dev
+```
 
-## Deploy on Vercel
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🚢 Deployment
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Railway Deployment
+
+This project is configured for easy deployment on Railway:
+
+1. Connect your GitHub repository to Railway
+2. Railway will automatically detect the Next.js configuration
+3. The app will be deployed and accessible via Railway's provided URL
+
+### Environment Variables
+
+Create a `.env.local` file with the following variables:
+
+```env
+NEXT_PUBLIC_APP_URL=http://localhost:3000
+NEXT_PUBLIC_APP_NAME="Sting.my"
+```
+
+## 📚 Pages Overview
+
+### Homepage (`/`)
+- Hero section with project introduction
+- Current progress display
+- Feature highlights
+- Call-to-action sections
+
+### Sting Levels (`/levels`)
+- Detailed overview of all 7 sting levels
+- Insect information and risk assessments
+- Progress tracking
+- Interactive level details
+
+### Education (`/education`)
+- Comprehensive articles about entomology
+- Pain science research
+- Insect biology and ecology
+- Search and filtering capabilities
+
+### Live Streaming (`/live`)
+- Upcoming stream schedule
+- Live stream status
+- Video archive
+- Community engagement features
+
+### Token System (`/token`)
+- Token earning mechanisms
+- Community voting
+- Leaderboard
+- Token utility information
+
+### Safety (`/safety`)
+- Comprehensive safety protocols
+- Medical information
+- Risk assessments
+- Emergency procedures
+
+## 🎨 Design System
+
+The application uses a consistent design system with:
+
+- **Colors**: Red and orange gradient theme
+- **Typography**: Inter font family
+- **Spacing**: Consistent spacing scale
+- **Components**: Reusable UI components
+- **Animations**: Smooth transitions with Framer Motion
+
+## 🔒 Safety & Legal
+
+⚠️ **Important**: This project is for educational and entertainment purposes only. All content includes comprehensive safety warnings and disclaimers. Never attempt to replicate these activities without proper medical supervision.
+
+## 📖 Educational Value
+
+The project aims to educate users about:
+
+- Entomology and insect biology
+- Pain science and the Schmidt Sting Pain Index
+- Safety protocols for working with stinging insects
+- Medical considerations and allergic reactions
+- Ecological importance of insects
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- Inspired by Coyote Peterson's educational content
+- Based on Dr. Justin Schmidt's research on insect sting pain
+- Built with modern web technologies and best practices
+
+## 📞 Support
+
+For questions or support, please open an issue on GitHub or contact the development team.
+
+---
+
+**Remember**: Safety first! This content is educational only and should not be replicated without proper medical supervision.
