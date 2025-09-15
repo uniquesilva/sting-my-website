@@ -97,20 +97,24 @@ export default function HomePage() {
               transition={{ duration: 0.8, delay: 0.2 }}
               className="flex flex-col sm:flex-row gap-4 justify-center mb-12"
             >
-              <Link
-                href="/levels"
+              <a
+                href="https://pump.fun"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-gradient-to-r from-red-500 to-orange-500 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:from-red-600 hover:to-orange-600 transition-all duration-200 flex items-center justify-center space-x-2"
               >
                 <Play className="h-5 w-5" />
                 <span>Start Challenge</span>
-              </Link>
-              <Link
-                href="/token"
+              </a>
+              <a
+                href="https://pump.fun"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="border-2 border-red-500 text-red-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-500 hover:text-white transition-all duration-200 flex items-center justify-center space-x-2"
               >
                 <Zap className="h-5 w-5" />
                 <span>Buy STING Token</span>
-              </Link>
+              </a>
             </motion.div>
 
             {/* Teaser Video Placeholder */}
@@ -120,7 +124,12 @@ export default function HomePage() {
               transition={{ duration: 0.8, delay: 0.4 }}
               className="relative max-w-4xl mx-auto"
             >
-              <div className="bg-gray-900 rounded-2xl overflow-hidden shadow-2xl">
+              <a 
+                href="https://pump.fun"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block bg-gray-900 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-shadow cursor-pointer"
+              >
                 <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
                   <div className="text-center text-white">
                     <Play className="h-16 w-16 mx-auto mb-4 text-red-500" />
@@ -128,7 +137,7 @@ export default function HomePage() {
                     <p className="text-sm text-gray-400">Watch Level 3 Paper Wasp Challenge</p>
                   </div>
                 </div>
-              </div>
+              </a>
             </motion.div>
           </div>
         </div>
@@ -272,12 +281,14 @@ export default function HomePage() {
             most educational sting experience on the internet.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/token"
+            <a
+              href="https://pump.fun"
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-white text-red-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-200"
             >
               Buy STING Token on pump.fun
-            </Link>
+            </a>
             <Link
               href="/safety"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-red-500 transition-all duration-200"
