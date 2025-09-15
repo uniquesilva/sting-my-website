@@ -20,13 +20,13 @@ export default function HomePage() {
   const [currentLevel, setCurrentLevel] = useState(0)
   
   const stingLevels = [
-    { name: 'Sweat Bee', pain: '1.0', status: 'completed' },
     { name: 'Fire Ant', pain: '1.2', status: 'completed' },
     { name: 'Paper Wasp', pain: '2.0', status: 'in-progress' },
     { name: 'Bald-faced Hornet', pain: '2.5', status: 'upcoming' },
     { name: 'Velvet Ant', pain: '3.0', status: 'upcoming' },
     { name: 'Tarantula Hawk', pain: '4.0', status: 'upcoming' },
     { name: 'Bullet Ant', pain: '4.0+', status: 'upcoming' },
+    { name: 'Mystery Sting', pain: 'TBD', status: 'upcoming' },
   ]
 
   const features = [
@@ -84,7 +84,7 @@ export default function HomePage() {
                 </span>
               </h1>
               <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-                The ultimate insect sting challenge inspired by Coyote Peterson. 
+                The ultimate insect sting challenge streamed live on pump.fun via our STING token. 
                 Educational, entertaining, and tokenized experiences that push the boundaries 
                 of pain tolerance while promoting entomology education.
                 <span className="block text-sm text-red-500 mt-2">🧪 Connection Test - Live Update Successful! ✅ GitHub Sync Working!</span>
@@ -105,11 +105,11 @@ export default function HomePage() {
                 <span>Start Challenge</span>
               </Link>
               <Link
-                href="/live"
+                href="/token"
                 className="border-2 border-red-500 text-red-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-500 hover:text-white transition-all duration-200 flex items-center justify-center space-x-2"
               >
-                <Clock className="h-5 w-5" />
-                <span>Watch Live</span>
+                <Zap className="h-5 w-5" />
+                <span>Buy STING Token</span>
               </Link>
             </motion.div>
 
@@ -124,8 +124,8 @@ export default function HomePage() {
                 <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center">
                   <div className="text-center text-white">
                     <Play className="h-16 w-16 mx-auto mb-4 text-red-500" />
-                    <p className="text-lg">Teaser Video Coming Soon</p>
-                    <p className="text-sm text-gray-400">Behind the scenes of Sting Level 3</p>
+                    <p className="text-lg">Live on pump.fun</p>
+                    <p className="text-sm text-gray-400">Watch Level 3 Paper Wasp Challenge</p>
                   </div>
                 </div>
               </div>
@@ -276,13 +276,13 @@ export default function HomePage() {
               href="/token"
               className="bg-white text-red-500 px-8 py-4 rounded-lg text-lg font-semibold hover:bg-gray-100 transition-all duration-200"
             >
-              Get Tokens Now
+              Buy STING Token on pump.fun
             </Link>
             <Link
-              href="/education"
+              href="/safety"
               className="border-2 border-white text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-white hover:text-red-500 transition-all duration-200"
             >
-              Learn More
+              Safety Info
             </Link>
           </div>
         </div>

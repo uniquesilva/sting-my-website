@@ -145,11 +145,11 @@ export default function TokenPage() {
         {/* Header */}
         <div className="text-center mb-12">
           <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
-            Token & Community
+            STING Token on pump.fun
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Earn tokens through participation, vote on community decisions, 
-            and unlock exclusive content. Be part of shaping the Sting.my experience.
+            Trade STING tokens on pump.fun, vote on community decisions, 
+            and unlock exclusive content. Be part of shaping the Sting.my experience live on-chain.
           </p>
         </div>
 
@@ -161,7 +161,7 @@ export default function TokenPage() {
         >
           <div className="flex items-center justify-between">
             <div>
-              <h2 className="text-2xl font-bold mb-2">Your Token Balance</h2>
+              <h2 className="text-2xl font-bold mb-2">Your STING Token Balance</h2>
               <div className="flex items-center space-x-4">
                 <div className="text-4xl font-bold">{userTokens}</div>
                 <div className="flex items-center space-x-2">
@@ -169,7 +169,7 @@ export default function TokenPage() {
                   <span className="text-lg">STING tokens</span>
                 </div>
               </div>
-              <p className="text-red-100 mt-2">Level {userLevel} Community Member</p>
+              <p className="text-red-100 mt-2">Level {userLevel} Community Member • Trading on pump.fun</p>
             </div>
             <div className="text-right">
               <div className="text-2xl font-bold">{totalTokens}</div>
@@ -486,10 +486,10 @@ export default function TokenPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-red-500 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Connect Wallet
+              Trade on pump.fun
             </button>
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-500 transition-colors">
-              Join Discord
+              Connect Wallet
             </button>
           </div>
         </div>

@@ -8,19 +8,19 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Sting.my - The Ultimate Insect Sting Challenge',
-  description: 'Follow the 7-level sting challenge inspired by Coyote Peterson. Educational, entertaining, and tokenized insect sting experiences.',
+  description: 'Follow the 7-level sting challenge streamed live on pump.fun via STING token. Educational, entertaining, and tokenized insect sting experiences.',
   keywords: 'insect stings, Schmidt pain index, Coyote Peterson, token, livestream, education, entomology',
   authors: [{ name: 'Sting.my Team' }],
   openGraph: {
     title: 'Sting.my - The Ultimate Insect Sting Challenge',
-    description: 'Follow the 7-level sting challenge inspired by Coyote Peterson. Educational, entertaining, and tokenized insect sting experiences.',
+    description: 'Follow the 7-level sting challenge streamed live on pump.fun via STING token. Educational, entertaining, and tokenized insect sting experiences.',
     type: 'website',
     locale: 'en_US',
   },
   twitter: {
     card: 'summary_large_image',
     title: 'Sting.my - The Ultimate Insect Sting Challenge',
-    description: 'Follow the 7-level sting challenge inspired by Coyote Peterson. Educational, entertaining, and tokenized insect sting experiences.',
+    description: 'Follow the 7-level sting challenge streamed live on pump.fun via STING token. Educational, entertaining, and tokenized insect sting experiences.',
   },
 }
 

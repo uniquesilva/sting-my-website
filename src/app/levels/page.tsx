@@ -28,17 +28,6 @@ interface StingLevel {
 const stingLevels: StingLevel[] = [
   {
     id: 1,
-    name: 'Sweat Bee',
-    scientificName: 'Halictidae family',
-    painIndex: 1.0,
-    description: 'A gentle introduction to insect stings. Small, metallic bees that are attracted to human sweat. Their sting is described as a sharp, burning sensation that lasts only a few minutes.',
-    risks: ['Localized pain and swelling', 'Risk of allergic reaction in sensitive individuals'],
-    educational: ['Bee anatomy and behavior', 'Why bees sting', 'Importance of pollinators'],
-    status: 'completed',
-    date: '2024-01-15'
-  },
-  {
-    id: 2,
     name: 'Fire Ant',
     scientificName: 'Solenopsis invicta',
     painIndex: 1.2,
@@ -46,21 +35,21 @@ const stingLevels: StingLevel[] = [
     risks: ['Multiple stings possible', 'Blisters and itching', 'Risk of secondary infection'],
     educational: ['Ant colony structure', 'Fire ant invasion biology', 'Pain mechanism in ant stings'],
     status: 'completed',
-    date: '2024-02-20'
+    date: '2024-01-15'
   },
   {
-    id: 3,
+    id: 2,
     name: 'Paper Wasp',
     scientificName: 'Polistes dominula',
     painIndex: 2.0,
-    description: 'Paper wasps build distinctive umbrella-shaped nests. Their sting is more intense than bees, with a sharp, burning pain that can last 30-60 minutes.',
-    risks: ['More intense pain than previous levels', 'Swelling and redness', 'Potential for multiple stings'],
-    educational: ['Wasp vs bee differences', 'Paper nest construction', 'Social wasp behavior'],
+    description: 'Paper wasps build distinctive umbrella-shaped nests. Their sting is more intense than fire ants, with a sharp, burning pain that can last 30-60 minutes.',
+    risks: ['More intense pain than fire ants', 'Swelling and redness', 'Potential for multiple stings'],
+    educational: ['Wasp vs ant differences', 'Paper nest construction', 'Social wasp behavior'],
     status: 'in-progress',
     date: '2024-03-25'
   },
   {
-    id: 4,
+    id: 3,
     name: 'Bald-faced Hornet',
     scientificName: 'Dolichovespula maculata',
     painIndex: 2.5,
@@ -70,7 +59,7 @@ const stingLevels: StingLevel[] = [
     status: 'upcoming'
   },
   {
-    id: 5,
+    id: 4,
     name: 'Velvet Ant (Cow Killer)',
     scientificName: 'Dasymutilla occidentalis',
     painIndex: 3.0,
@@ -80,7 +69,7 @@ const stingLevels: StingLevel[] = [
     status: 'upcoming'
   },
   {
-    id: 6,
+    id: 5,
     name: 'Tarantula Hawk Wasp',
     scientificName: 'Pepsis grossa',
     painIndex: 4.0,
@@ -90,13 +79,23 @@ const stingLevels: StingLevel[] = [
     status: 'upcoming'
   },
   {
-    id: 7,
+    id: 6,
     name: 'Bullet Ant',
     scientificName: 'Paraponera clavata',
     painIndex: 4.0,
     description: 'The ultimate test - often considered the most painful insect sting. The pain is described as "pure, intense, brilliant pain" that can last 24 hours or more.',
     risks: ['Most intense pain possible', 'Long-lasting pain (24+ hours)', 'Potential for shock'],
     educational: ['Amazon rainforest ecology', 'Indigenous pain rituals', 'Pain neuroscience research'],
+    status: 'upcoming'
+  },
+  {
+    id: 7,
+    name: 'Mystery Sting',
+    scientificName: 'TBD',
+    painIndex: 0,
+    description: 'The final challenge - a mystery sting that will be revealed based on community research and scientific discovery. This level represents the unknown frontiers of entomological pain research.',
+    risks: ['Unknown intensity', 'Unpredictable reactions', 'Experimental nature'],
+    educational: ['Research methodology', 'Scientific discovery', 'Community collaboration'],
     status: 'upcoming'
   }
 ]
@@ -146,8 +145,8 @@ export default function LevelsPage() {
             The 7 Sting Levels
           </h1>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            Follow our journey through the Schmidt Sting Pain Index, from mild discomfort 
-            to the most intense pain known to science. Each level is carefully selected 
+            Follow our journey through the Schmidt Sting Pain Index, streamed live on pump.fun via STING token. 
+            From mild discomfort to the most intense pain known to science. Each level is carefully selected 
             for educational value and safety.
           </p>
         </div>
@@ -304,10 +303,10 @@ export default function LevelsPage() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <button className="bg-white text-red-500 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
-              Get Tokens
+              Buy STING Token
             </button>
             <button className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-red-500 transition-colors">
-              Join Community
+              Trade on pump.fun
             </button>
           </div>
         </div>

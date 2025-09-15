@@ -1,13 +1,13 @@
 # Sting.my - The Ultimate Insect Sting Challenge
 
-A modern web application inspired by Coyote Peterson's insect sting challenges, featuring educational content, community engagement, and tokenized rewards.
+A modern web application featuring live-streamed insect sting challenges on pump.fun via the STING token, with educational content, community engagement, and tokenized rewards.
 
 ## 🚀 Features
 
 - **7-Level Sting Challenge**: Progressive difficulty based on Schmidt Sting Pain Index
-- **Educational Content**: Comprehensive articles about entomology and pain science
-- **Live Streaming**: Real-time challenges and educational sessions
-- **Token System**: Community rewards and voting mechanisms
+- **Live on pump.fun**: All challenges streamed live via STING token
+- **STING Token**: Trade and earn tokens on pump.fun platform
+- **Community Voting**: Token-based voting and rewards system
 - **Safety First**: Comprehensive medical information and safety protocols
 - **Modern UI**: Beautiful, responsive design with smooth animations
 
@@ -25,9 +25,7 @@ A modern web application inspired by Coyote Peterson's insect sting challenges, 
 ```
 src/
 ├── app/                    # Next.js App Router pages
-│   ├── education/         # Educational blog and articles
 │   ├── levels/            # Sting levels overview
-│   ├── live/              # Live streaming page
 │   ├── safety/            # Safety and medical information
 │   ├── token/             # Token system and community
 │   ├── layout.tsx         # Root layout
@@ -98,17 +96,6 @@ NEXT_PUBLIC_APP_NAME="Sting.my"
 - Progress tracking
 - Interactive level details
 
-### Education (`/education`)
-- Comprehensive articles about entomology
-- Pain science research
-- Insect biology and ecology
-- Search and filtering capabilities
-
-### Live Streaming (`/live`)
-- Upcoming stream schedule
-- Live stream status
-- Video archive
-- Community engagement features
 
 ### Token System (`/token`)
 - Token earning mechanisms

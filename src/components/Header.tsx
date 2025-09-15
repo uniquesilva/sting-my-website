@@ -10,8 +10,6 @@ export default function Header() {
   const navigation = [
     { name: 'Home', href: '/' },
     { name: 'Sting Levels', href: '/levels' },
-    { name: 'Education', href: '/education' },
-    { name: 'Live Stream', href: '/live' },
     { name: 'Token', href: '/token' },
     { name: 'Safety', href: '/safety' },
   ]

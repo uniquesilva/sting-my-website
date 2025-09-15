@@ -94,12 +94,6 @@ const medicalInfo: MedicalInfo[] = [
 
 const insects = [
   {
-    name: 'Sweat Bee',
-    riskLevel: 'Low',
-    description: 'Minimal risk of severe reaction. Local pain and swelling expected.',
-    precautions: ['Clean sting site', 'Apply ice', 'Monitor for allergies']
-  },
-  {
     name: 'Fire Ant',
     riskLevel: 'Low-Medium',
     description: 'Multiple stings possible. Risk of blisters and secondary infection.',
@@ -108,7 +102,7 @@ const insects = [
   {
     name: 'Paper Wasp',
     riskLevel: 'Medium',
-    description: 'More intense pain than bees. Risk of allergic reactions increases.',
+    description: 'More intense pain than fire ants. Risk of allergic reactions increases.',
     precautions: ['Immediate ice application', 'Antihistamines ready', 'Watch for swelling']
   },
   {

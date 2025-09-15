@@ -5,8 +5,6 @@ export default function Footer() {
   const footerLinks = {
     main: [
       { name: 'Sting Levels', href: '/levels' },
-      { name: 'Education', href: '/education' },
-      { name: 'Live Stream', href: '/live' },
       { name: 'Token', href: '/token' },
       { name: 'Safety', href: '/safety' },
     ],
